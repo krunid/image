@@ -1,30 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My App</title>
-  <style>
-    .responsive-iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      width: 100vw;
-      height: 100vh;
-      border: none;
-    }
-  </style>
+  <base target="_top" />
+  <meta charset="UTF-8" />
+  
 </head>
+
 <body>
-  <div> 
-    <iframe id="myframe" class="responsive-iframe" src="" allowFullScreen></iframe>
-  </div>
-  <script>
-    const apps = new URL(window.location);
-    const formUrl = apps.searchParams.get('apps');
-    const url = decodeURIComponent(formUrl)
-          document.getElementById('myframe').src = url
-  </script>
+  <IFRAME
+    src=https://krunidblogger.blogspot.com/
+    frameborder="0" scrolling="yes" style="width:100%; height:100vh;">
+  </IFRAME>
+
+  </IFRAME>
 </body>
+
 </html>
